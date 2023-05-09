@@ -84,6 +84,7 @@
               <suiteXmlFile>${project.basedir}/src/test/resources/testng-smoke.xml</suiteXmlFile>
               <suiteXmlFile>${project.basedir}/src/test/resources/testng-all.xml</suiteXmlFile>
             </suiteXmlFiles>
+            <trimStackTrace>false</trimStackTrace>
           </configuration>
         </plugin>
         <plugin>

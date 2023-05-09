@@ -32,7 +32,7 @@ public class CloudHomePage extends BasePage {
     public CloudHomePage openPage() {
         driver.get(HOMEPAGE_URL);
         logger.info("Cloud home page opened");
-        //clickThis(acceptCookies);
+        clickThis(acceptCookies);
         return this;
     }
 
