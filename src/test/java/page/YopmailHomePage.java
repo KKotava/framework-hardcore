@@ -47,6 +47,7 @@ public class YopmailHomePage extends BasePage {
         logger.info("New tab opened");
         driver.get(HOMEPAGE_URL);
         clickThis(acceptCookies);
+        logger.info("cookies accepted");
         tabs = new ArrayList<>(driver.getWindowHandles());
         logger.info("YopMail page opened");
         return this;
